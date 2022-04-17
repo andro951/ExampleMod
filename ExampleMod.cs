@@ -1,18 +1,18 @@
 using Terraria.GameContent.UI;
 using Terraria.ModLoader;
 
-namespace ExampleMod
+namespace clamshellboi
 {
-	// This is a partial class, meaning some of its parts were split into other files. See ExampleMod.*.cs for other portions.
-	public partial class ExampleMod : Mod
+	// This is a partial class, meaning some of its parts were split into other files. See clamshellboi.*.cs for other portions.
+	public partial class clamshellboi : Mod
 	{
-		public const string AssetPath = $"{nameof(ExampleMod)}/Assets/";
+		public const string AssetPath = $"{nameof(clamshellboi)}/Assets/";
 
 		public static int ExampleCustomCurrencyId;
 
 		public override void Load() {
 			// Registers a new custom currency
-			ExampleCustomCurrencyId = CustomCurrencyManager.RegisterCurrency(new Content.Currencies.ExampleCustomCurrency(ModContent.ItemType<Content.Items.ExampleItem>(), 999L, "Mods.ExampleMod.Currencies.ExampleCustomCurrency"));
+			ExampleCustomCurrencyId = CustomCurrencyManager.RegisterCurrency(new Content.Currencies.ExampleCustomCurrency(ModContent.ItemType<Content.Items.ExampleItem>(), 999L, "Mods.clamshellboi.Currencies.ExampleCustomCurrency"));
 		}
 
 		public override void Unload() {

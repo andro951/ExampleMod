@@ -1,13 +1,13 @@
-using ExampleMod.Common.Systems;
-using ExampleMod.Content;
+using clamshellboi.Common.Systems;
+using clamshellboi.Content;
 using System;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod
+namespace clamshellboi
 {
-	// This is a partial class, meaning some of its parts were split into other files. See ExampleMod.*.cs for other portions.
-	partial class ExampleMod
+	// This is a partial class, meaning some of its parts were split into other files. See clamshellboi.*.cs for other portions.
+	partial class clamshellboi
 	{
 		// The following code allows other mods to "call" Example Mod data.
 		// This allows mod developers to access Example Mod's data without having to set it a reference.

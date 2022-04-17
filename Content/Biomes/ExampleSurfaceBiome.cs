@@ -1,18 +1,18 @@
-﻿using ExampleMod.Common.Systems;
+﻿using clamshellboi.Common.Systems;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 using Terraria.Graphics.Capture;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Biomes
+namespace clamshellboi.Content.Biomes
 {
 	// Shows setting up two basic biomes. For a more complicated example, please request.
 	public class ExampleSurfaceBiome : ModBiome
 	{
 		// Select all the scenery
-		public override ModWaterStyle WaterStyle => ModContent.Find<ModWaterStyle>("ExampleMod/ExampleWaterStyle"); // Sets a water style for when inside this biome
-		public override ModSurfaceBackgroundStyle SurfaceBackgroundStyle => ModContent.Find<ModSurfaceBackgroundStyle>("ExampleMod/ExampleSurfaceBackgroundStyle");
+		public override ModWaterStyle WaterStyle => ModContent.Find<ModWaterStyle>("clamshellboi/ExampleWaterStyle"); // Sets a water style for when inside this biome
+		public override ModSurfaceBackgroundStyle SurfaceBackgroundStyle => ModContent.Find<ModSurfaceBackgroundStyle>("clamshellboi/ExampleSurfaceBackgroundStyle");
 		public override CaptureBiome.TileColorStyle TileColorStyle => CaptureBiome.TileColorStyle.Crimson;
 
 		// Select Music

@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Rarities
+namespace clamshellboi.Content.Rarities
 {
 	public class ExampleHigherTierModRarity : ModRarity
 	{

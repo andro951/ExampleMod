@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Accessories
+namespace clamshellboi.Content.Items.Accessories
 {
 	//Showcases a beard vanity item that uses a greyscale sprite which gets its' color from the players' hair
 	//Requires ArmorIDs.Beard.Sets.UseHairColor and Item.color to be used properly

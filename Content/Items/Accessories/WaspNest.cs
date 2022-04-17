@@ -6,7 +6,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Mono.Cecil.Cil;
 
-namespace ExampleMod.Content.Items.Accessories
+namespace clamshellboi.Content.Items.Accessories
 {
 	[AutoloadEquip(EquipType.Back)]
 	public class WaspNest : ModItem

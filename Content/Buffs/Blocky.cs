@@ -1,11 +1,11 @@
-using ExampleMod.Common.Players;
-using ExampleMod.Content.Items.Placeable;
+using clamshellboi.Common.Players;
+using clamshellboi.Content.Items.Placeable;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Buffs
+namespace clamshellboi.Content.Buffs
 {
 	public class Blocky : ModBuff
 	{

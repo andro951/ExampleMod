@@ -5,7 +5,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	public class ExampleBar : ModTile
 	{

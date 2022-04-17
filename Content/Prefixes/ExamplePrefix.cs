@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Prefixes
+namespace clamshellboi.Content.Prefixes
 {
 	// This class serves as an example for declaring item 'prefixes', or 'modifiers' in other words.
 	public class ExamplePrefix : ModPrefix

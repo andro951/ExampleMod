@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Utilities;
 
-namespace ExampleMod.Content.NPCs
+namespace clamshellboi.Content.NPCs
 {
 	// This ModNPC serves as an example of a completely custom AI.
 	public class ExampleCustomAISlimeNPC : ModNPC

@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleDye : ModItem
 	{

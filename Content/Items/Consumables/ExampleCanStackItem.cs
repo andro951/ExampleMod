@@ -6,7 +6,7 @@ using Terraria.ModLoader.IO;
 using System.IO;
 using System.Collections.Generic;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	// This showcases how the CanStack hook can be used in conjunction with custom data
 	// Custom data is also shown in ExampleDataItem, but here we need to use more hooks

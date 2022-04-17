@@ -1,13 +1,13 @@
-using ExampleMod.Content.Items.Placeable;
+using clamshellboi.Content.Items.Placeable;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
-	// See ExampleMod/Common/Systems/MusicLoadingSystem for an explanation on music.
+	// See clamshellboi/Common/Systems/MusicLoadingSystem for an explanation on music.
 	public class ExampleMusicBoxTile : ModTile
 	{
 		public override void SetStaticDefaults() {

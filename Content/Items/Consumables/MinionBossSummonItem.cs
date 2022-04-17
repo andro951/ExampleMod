@@ -3,9 +3,9 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
-using ExampleMod.Content.NPCs.MinionBoss;
+using clamshellboi.Content.NPCs.MinionBoss;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	// This is the item used to summon a boss, in this case the modded Minion Boss from Example Mod. For vanilla boss summons, see comments in SetStaticDefaults
 	public class MinionBossSummonItem : ModItem

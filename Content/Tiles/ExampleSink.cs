@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	public class ExampleSink : ModTile
 	{

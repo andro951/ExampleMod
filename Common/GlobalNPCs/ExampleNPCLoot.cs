@@ -2,10 +2,10 @@ using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
-using ExampleMod.Content.Items;
-using ExampleMod.Common.ItemDropRules.Conditions;
+using clamshellboi.Content.Items;
+using clamshellboi.Common.ItemDropRules.Conditions;
 
-namespace ExampleMod.Common.GlobalNPCs
+namespace clamshellboi.Common.GlobalNPCs
 {
 	// This file shows numerous examples of what you can do with the extensive NPC Loot lootable system.
 	// Despite this file being GlobalNPC, everything here can be used with a ModNPC as well! See examples of this in the Content/NPCs folder.

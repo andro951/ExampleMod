@@ -1,4 +1,4 @@
-namespace ExampleMod.Content.Prefixes
+namespace clamshellboi.Content.Prefixes
 {
 	// Be sure to see 'ExamplePrefix' first.
 	// This class showcases how you can use inheritance to have an easier time with making variants of a single prefix.

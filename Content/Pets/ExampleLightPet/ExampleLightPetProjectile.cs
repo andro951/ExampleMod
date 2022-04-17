@@ -5,7 +5,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Pets.ExampleLightPet
+namespace clamshellboi.Content.Pets.ExampleLightPet
 {
 	public class ExampleLightPetProjectile : ModProjectile
 	{

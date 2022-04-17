@@ -1,11 +1,11 @@
-using ExampleMod.Content.Dusts;
+using clamshellboi.Content.Dusts;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Tools
+namespace clamshellboi.Content.Items.Tools
 {
 	public class ExamplePickaxe : ModItem
 	{

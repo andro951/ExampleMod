@@ -1,5 +1,5 @@
-using ExampleMod.Content.Dusts;
-using ExampleMod.Content.Items.Placeable.Furniture;
+using clamshellboi.Content.Dusts;
+using clamshellboi.Content.Items.Placeable.Furniture;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
@@ -10,7 +10,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles.Furniture
+namespace clamshellboi.Content.Tiles.Furniture
 {
 	public class ExampleChest : ModTile
 	{

@@ -10,7 +10,7 @@ using System;
 using ReLogic.Content;
 using Terraria.Localization;
 
-namespace ExampleMod.Content.Tiles.Furniture
+namespace clamshellboi.Content.Tiles.Furniture
 {
 	// Common code for a Master Mode boss relic
 	// Contains comments for optional Item.placeStyle handling if you wish to add more relics but use the same tile type (then it would be wise to name this class something more generic like BossRelic)
@@ -26,10 +26,10 @@ namespace ExampleMod.Content.Tiles.Furniture
 
 		// Every relic has its own extra floating part, should be 50x50. Optional: Expand this sheet if you want to add more, stacked vertically
 		// If you do not go the optional way, and you extend from this class, you can override this to point to a different texture
-		public virtual string RelicTextureName => "ExampleMod/Content/Tiles/Furniture/MinionBossRelic";
+		public virtual string RelicTextureName => "clamshellboi/Content/Tiles/Furniture/MinionBossRelic";
 
 		// All relics use the same pedestal texture, this one is copied from vanilla
-		public override string Texture => "ExampleMod/Content/Tiles/Furniture/RelicPedestal";
+		public override string Texture => "clamshellboi/Content/Tiles/Furniture/RelicPedestal";
 
 		public override void Load() {
 			if (!Main.dedServ) {
@@ -165,7 +165,7 @@ namespace ExampleMod.Content.Tiles.Furniture
 	/*
 	public class MyBossRelic : MinionBossRelic
 	{
-		public override string RelicTextureName => "ExampleMod/Content/Tiles/Furniture/MyBossRelic";
+		public override string RelicTextureName => "clamshellboi/Content/Tiles/Furniture/MyBossRelic";
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY) {
 			Item.NewItem(i * 16, j * 16, 32, 32, ModContent.ItemType<Items.Placeable.Furniture.MyBossRelic>());

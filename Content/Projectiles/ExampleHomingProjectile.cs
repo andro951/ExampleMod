@@ -1,10 +1,10 @@
-﻿using ExampleMod.Content.Dusts;
+﻿using clamshellboi.Content.Dusts;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles
+namespace clamshellboi.Content.Projectiles
 {
 	// This Example show how to implement simple homing projectile
 	// Can be tested with ExampleCustomAmmoGun

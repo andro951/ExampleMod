@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Buffs
+namespace clamshellboi.Content.Buffs
 {
 	public class ExampleMountBuff : ModBuff
 	{

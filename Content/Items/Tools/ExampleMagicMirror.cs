@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Tools
+namespace clamshellboi.Content.Items.Tools
 {
 	// Magic Mirror is one of the only vanilla items that does its action somewhere other than the start of its animation, which is why we use code in UseStyle NOT UseItem.
 	// It may prove a useful guide for ModItems with similar behaviors.

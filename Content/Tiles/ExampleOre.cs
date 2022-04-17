@@ -6,7 +6,7 @@ using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.WorldBuilding;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	public class ExampleOre : ModTile
 	{

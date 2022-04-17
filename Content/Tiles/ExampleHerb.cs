@@ -1,5 +1,5 @@
-using ExampleMod.Content.Items;
-using ExampleMod.Content.Items.Placeable;
+using clamshellboi.Content.Items;
+using clamshellboi.Content.Items.Placeable;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	// An enum for the 3 stages of herb growth
 	public enum PlantStage : byte

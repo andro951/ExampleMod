@@ -1,11 +1,11 @@
-﻿using ExampleMod.Content.Projectiles;
+﻿using clamshellboi.Content.Projectiles;
 using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	public class ExampleSpear : ModItem
 	{

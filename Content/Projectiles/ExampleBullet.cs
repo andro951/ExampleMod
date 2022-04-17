@@ -7,7 +7,7 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles
+namespace clamshellboi.Content.Projectiles
 {
 	public class ExampleBullet : ModProjectile
 	{

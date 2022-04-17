@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	// Making an item like Life Fruit (That goes above 500) involves a lot of code, as there are many things to consider.
 	// (An alternate that approaches 500 can simply follow vanilla code, however.):
@@ -74,7 +74,7 @@ namespace ExampleMod.Content.Items.Consumables
 
 		public override void SyncPlayer(int toWho, int fromWho, bool newPlayer) {
 			ModPacket packet = Mod.GetPacket();
-			packet.Write((byte)ExampleMod.MessageType.ExamplePlayerSyncPlayer);
+			packet.Write((byte)clamshellboi.MessageType.ExamplePlayerSyncPlayer);
 			packet.Write((byte)Player.whoAmI);
 			packet.Write(exampleLifeFruits);
 			packet.Send(toWho, fromWho);

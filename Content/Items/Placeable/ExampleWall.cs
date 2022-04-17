@@ -1,9 +1,9 @@
-using ExampleMod.Content.Tiles.Furniture;
+using clamshellboi.Content.Tiles.Furniture;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Placeable
+namespace clamshellboi.Content.Items.Placeable
 {
 	public class ExampleWall : ModItem
 	{

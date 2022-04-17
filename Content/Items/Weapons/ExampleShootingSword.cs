@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	/// <summary>
 	///     Star Wrath/Starfury style weapon. Spawn projectiles from sky that aim towards mouse.

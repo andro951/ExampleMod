@@ -1,4 +1,4 @@
-﻿using ExampleMod.Content.Items;
+﻿using clamshellboi.Content.Items;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
@@ -6,7 +6,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles
+namespace clamshellboi.Content.Projectiles
 {
 	// This file shows an animated projectile
 	// This file also shows advanced drawing to center the drawn projectile correctly

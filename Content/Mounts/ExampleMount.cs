@@ -7,7 +7,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Mounts
+namespace clamshellboi.Content.Mounts
 {
 	// This mount is a car with wheels which behaves simillarly to the unicorn mount. The car has 3 baloons attached to the back.
 	public class ExampleMount : ModMount

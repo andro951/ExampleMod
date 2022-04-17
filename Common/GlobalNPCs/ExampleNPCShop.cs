@@ -1,9 +1,9 @@
-﻿using ExampleMod.Content.Items;
+﻿using clamshellboi.Content.Items;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.GlobalNPCs
+namespace clamshellboi.Common.GlobalNPCs
 {
 	class ExampleNPCShop : GlobalNPC
 	{
@@ -27,7 +27,7 @@ namespace ExampleMod.Common.GlobalNPCs
 				// This shop entry sells for 3 of a custom currency added in our mod.
 				shop.item[nextSlot].SetDefaults(ModContent.ItemType<ExampleMountItem>());
 				shop.item[nextSlot].shopCustomPrice = 3;
-				shop.item[nextSlot].shopSpecialCurrency = ExampleMod.ExampleCustomCurrencyId;
+				shop.item[nextSlot].shopSpecialCurrency = clamshellboi.ExampleCustomCurrencyId;
 				nextSlot++;
 			}
 			else if (type == NPCID.Wizard) {

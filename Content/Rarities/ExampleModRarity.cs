@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Rarities
+namespace clamshellboi.Content.Rarities
 {
 	public class ExampleModRarity : ModRarity
 	{

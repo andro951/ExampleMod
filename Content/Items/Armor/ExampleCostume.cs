@@ -1,10 +1,10 @@
-using ExampleMod.Common.Players;
-using ExampleMod.Content.Dusts;
+using clamshellboi.Common.Players;
+using clamshellboi.Content.Dusts;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Armor
+namespace clamshellboi.Content.Items.Armor
 {
 	// This and several other classes show off using EquipTextures to do a Merfolk or Werewolf effect.
 	// Typically Armor items are automatically paired with an EquipTexture, but we can manually use EquipTextures to achieve more unique effects.

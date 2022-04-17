@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace ExampleMod.Content.Items.Placeable.Furniture
+namespace clamshellboi.Content.Items.Placeable.Furniture
 {
 	public class ExampleBed : ModItem
 	{

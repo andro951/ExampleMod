@@ -1,15 +1,15 @@
-﻿using ExampleMod.Content.DamageClasses;
-using ExampleMod.Content.Tiles.Furniture;
+﻿using clamshellboi.Content.DamageClasses;
+using clamshellboi.Content.Tiles.Furniture;
 using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	public class ExampleCustomDamageWeapon : ModItem
 	{
-		public override string Texture => "ExampleMod/Content/Items/Weapons/ExampleSword"; //TODO: remove when sprite is made for this
+		public override string Texture => "clamshellboi/Content/Items/Weapons/ExampleSword"; //TODO: remove when sprite is made for this
 
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;

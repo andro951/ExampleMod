@@ -1,9 +1,9 @@
-using ExampleMod.Content.Tiles.Furniture;
+using clamshellboi.Content.Tiles.Furniture;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Ammo
+namespace clamshellboi.Content.Items.Ammo
 {
 	public class ExampleBullet : ModItem
 	{

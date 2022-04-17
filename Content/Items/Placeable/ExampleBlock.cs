@@ -1,10 +1,10 @@
-﻿using ExampleMod.Content.Items.Placeable.Furniture;
+﻿using clamshellboi.Content.Items.Placeable.Furniture;
 using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Placeable
+namespace clamshellboi.Content.Items.Placeable
 {
 	public class ExampleBlock : ModItem
 	{

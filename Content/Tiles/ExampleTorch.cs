@@ -1,5 +1,5 @@
-using ExampleMod.Content.Biomes;
-using ExampleMod.Content.Dusts;
+using clamshellboi.Content.Biomes;
+using clamshellboi.Content.Dusts;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
@@ -10,7 +10,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	public class ExampleTorch : ModTile
 	{
@@ -59,7 +59,7 @@ namespace ExampleMod.Content.Tiles
 
 			// Assets
 			if (!Main.dedServ) {
-				flameTexture = ModContent.Request<Texture2D>("ExampleMod/Content/Tiles/ExampleTorch_Flame");
+				flameTexture = ModContent.Request<Texture2D>("clamshellboi/Content/Tiles/ExampleTorch_Flame");
 			}
 		}
 

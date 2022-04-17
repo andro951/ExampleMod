@@ -1,13 +1,13 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using ExampleMod.Content.Items.Placeable;
-using ExampleMod.Content.Items.Placeable.Furniture;
+using clamshellboi.Content.Items.Placeable;
+using clamshellboi.Content.Items.Placeable.Furniture;
 using Terraria.Net;
 using Terraria.GameContent.NetModules;
 using Terraria.GameContent.Creative;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleItem : ModItem
 	{

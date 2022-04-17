@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles.Furniture
+namespace clamshellboi.Content.Tiles.Furniture
 {
 	public class ExampleWorkbench : ModTile
 	{

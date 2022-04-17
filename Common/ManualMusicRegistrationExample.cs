@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader;
 
-namespace ExampleMod.Common
+namespace clamshellboi.Common
 {
 	// An example ILoadable showing off manual music loading.
 	// Manual loading is rarely needed, as, by default, TML will autoload every .wav, .ogg and .mp3 sound file in a 'Music' folder (including sub-directories) as a music track.

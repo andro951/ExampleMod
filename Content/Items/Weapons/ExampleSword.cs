@@ -1,11 +1,11 @@
-using ExampleMod.Content.Rarities;
+using clamshellboi.Content.Rarities;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	public class ExampleSword : ModItem
 	{

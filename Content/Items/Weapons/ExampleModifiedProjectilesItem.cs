@@ -3,14 +3,14 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
-using ExampleMod.Common.GlobalProjectiles;
+using clamshellboi.Common.GlobalProjectiles;
 using Terraria.GameContent.Creative;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	public class ExampleModifiedProjectilesItem : ModItem
 	{
-		public override string Texture => "ExampleMod/Content/Items/Weapons/ExampleShootingSword";
+		public override string Texture => "clamshellboi/Content/Items/Weapons/ExampleShootingSword";
 
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;

@@ -1,13 +1,13 @@
-﻿using ExampleMod.Content.Biomes;
-using ExampleMod.Content.Buffs;
-using ExampleMod.Content.Items.Armor;
+﻿using clamshellboi.Content.Biomes;
+using clamshellboi.Content.Buffs;
+using clamshellboi.Content.Items.Armor;
 using Terraria;
 using Terraria.Audio;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Players
+namespace clamshellboi.Common.Players
 {
 	public class ExampleCostumePlayer : ModPlayer
 	{

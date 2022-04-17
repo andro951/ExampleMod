@@ -1,10 +1,10 @@
-﻿using ExampleMod.Content.Items.Ammo;
+﻿using clamshellboi.Content.Items.Ammo;
 using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	// This is an example showing how to create a weapon that fires custom ammunition
 	// The most important property is "Item.useAmmo". It tells you which item to use as ammo.

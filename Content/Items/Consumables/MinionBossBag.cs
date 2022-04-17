@@ -1,14 +1,14 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using ExampleMod.Content.NPCs.MinionBoss;
-using ExampleMod.Content.Items.Armor.Vanity;
+using clamshellboi.Content.NPCs.MinionBoss;
+using clamshellboi.Content.Items.Armor.Vanity;
 using Terraria.GameContent.Creative;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria.GameContent;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	// Basic code for a boss treasure bag
 	public class MinionBossBag : ModItem

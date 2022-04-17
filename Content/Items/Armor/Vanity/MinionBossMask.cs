@@ -3,7 +3,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Armor.Vanity
+namespace clamshellboi.Content.Items.Armor.Vanity
 {
 	// This tells tModLoader to look for a texture called MinionBossMask_Head, which is the texture on the player
 	// and then registers this item to be accepted in head equip slots

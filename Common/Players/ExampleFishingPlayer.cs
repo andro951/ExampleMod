@@ -1,13 +1,13 @@
-﻿using ExampleMod.Content.Biomes;
-using ExampleMod.Content.Items.Tools;
-using ExampleMod.Content.NPCs;
+﻿using clamshellboi.Content.Biomes;
+using clamshellboi.Content.Items.Tools;
+using clamshellboi.Content.NPCs;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Players
+namespace clamshellboi.Common.Players
 {
 	public class ExampleFishingPlayer : ModPlayer
 	{

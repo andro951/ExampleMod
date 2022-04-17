@@ -1,9 +1,9 @@
-using ExampleMod.Content.Dusts;
+using clamshellboi.Content.Dusts;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Walls
+namespace clamshellboi.Content.Walls
 {
 	public class ExampleWall : ModWall
 	{

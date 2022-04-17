@@ -1,11 +1,11 @@
-using ExampleMod.Content.Biomes;
-using ExampleMod.Content.Dusts;
-using ExampleMod.Content.Items;
-using ExampleMod.Content.Items.Accessories;
-using ExampleMod.Content.Items.Armor;
-using ExampleMod.Content.Tiles;
-using ExampleMod.Content.Tiles.Furniture;
-using ExampleMod.Content.Walls;
+using clamshellboi.Content.Biomes;
+using clamshellboi.Content.Dusts;
+using clamshellboi.Content.Items;
+using clamshellboi.Content.Items.Accessories;
+using clamshellboi.Content.Items.Armor;
+using clamshellboi.Content.Tiles;
+using clamshellboi.Content.Tiles.Furniture;
+using clamshellboi.Content.Walls;
 using Microsoft.Xna.Framework;
 using System;
 using System.Linq;
@@ -22,7 +22,7 @@ using Terraria.GameContent;
 using Terraria.GameContent.Personalities;
 using Terraria.DataStructures;
 
-namespace ExampleMod.Content.NPCs
+namespace clamshellboi.Content.NPCs
 {
 	// [AutoloadHead] and npc.townNPC are extremely important and absolutely both necessary for any Town NPC to work at all.
 	[AutoloadHead]
@@ -51,7 +51,7 @@ namespace ExampleMod.Content.NPCs
 
 			NPCID.Sets.NPCBestiaryDrawOffset.Add(Type, drawModifiers);
 
-			// Set Example Person's biome and neighbor preferences with the NPCHappiness hook. You can add happiness text and remarks with localization (See an example in ExampleMod/Localization/en-US.lang).
+			// Set Example Person's biome and neighbor preferences with the NPCHappiness hook. You can add happiness text and remarks with localization (See an example in clamshellboi/Localization/en-US.lang).
 			// NOTE: The following code uses chaining - a style that works due to the fact that the SetXAffection methods return the same NPCHappiness instance they're called on.
 			NPC.Happiness
 				.SetBiomeAffection<ForestBiome>(AffectionLevel.Like) // Example Person prefers the forest.
@@ -92,7 +92,7 @@ namespace ExampleMod.Content.NPCs
 
 				// You can add multiple elements if you really wanted to
 				// You can also use localization keys (see Localization/en-US.lang)
-				new FlavorTextBestiaryInfoElement("Mods.ExampleMod.Bestiary.ExamplePerson")
+				new FlavorTextBestiaryInfoElement("Mods.clamshellboi.Bestiary.ExamplePerson")
 			});
 		}
 
@@ -136,7 +136,7 @@ namespace ExampleMod.Content.NPCs
 			return false;
 		}
 
-		// Example Person needs a house built out of ExampleMod tiles. You can delete this whole method in your townNPC for the regular house conditions.
+		// Example Person needs a house built out of clamshellboi tiles. You can delete this whole method in your townNPC for the regular house conditions.
 		public override bool CheckConditions(int left, int right, int top, int bottom) {
 			int score = 0;
 			for (int x = left; x <= right; x++) {
@@ -294,7 +294,7 @@ namespace ExampleMod.Content.NPCs
 		public override void OnGoToStatue(bool toKingStatue) {
 			if (Main.netMode == NetmodeID.Server) {
 				ModPacket packet = Mod.GetPacket();
-				packet.Write((byte)ExampleMod.MessageType.ExampleTeleportToStatue);
+				packet.Write((byte)clamshellboi.MessageType.ExampleTeleportToStatue);
 				packet.Write((byte)NPC.whoAmI);
 				packet.Send();
 			}

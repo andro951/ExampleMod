@@ -1,5 +1,5 @@
-using ExampleMod.Content.Items;
-using ExampleMod.Content.Tiles.Furniture;
+using clamshellboi.Content.Items;
+using clamshellboi.Content.Tiles.Furniture;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
@@ -8,7 +8,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles.Minions
+namespace clamshellboi.Content.Projectiles.Minions
 {
 	// This file contains all the code necessary for a minion
 	// - ModItem - the weapon which you use to summon the minion with

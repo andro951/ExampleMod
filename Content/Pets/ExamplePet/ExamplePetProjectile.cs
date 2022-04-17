@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Pets.ExamplePet
+namespace clamshellboi.Content.Pets.ExamplePet
 {
 	public class ExamplePetProjectile : ModProjectile
 	{

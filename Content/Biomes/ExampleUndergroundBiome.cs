@@ -1,15 +1,15 @@
-﻿using ExampleMod.Common.Systems;
+﻿using clamshellboi.Common.Systems;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Biomes
+namespace clamshellboi.Content.Biomes
 {
 	public class ExampleUndergroundBiome : ModBiome
 	{
 		// Select all the scenery
-		public override ModUndergroundBackgroundStyle UndergroundBackgroundStyle => ModContent.Find<ModUndergroundBackgroundStyle>("ExampleMod/ExampleUndergroundBackgroundStyle");
+		public override ModUndergroundBackgroundStyle UndergroundBackgroundStyle => ModContent.Find<ModUndergroundBackgroundStyle>("clamshellboi/ExampleUndergroundBackgroundStyle");
 
 		// Select Music
 		public override int Music => MusicLoader.GetMusicSlot(Mod, "Assets/Music/MysteriousMystery");

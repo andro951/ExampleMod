@@ -6,11 +6,11 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleInstancedItem : ModItem
 	{
-		public override string Texture => "ExampleMod/Content/Items/ExampleItem";
+		public override string Texture => "clamshellboi/Content/Items/ExampleItem";
 
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;

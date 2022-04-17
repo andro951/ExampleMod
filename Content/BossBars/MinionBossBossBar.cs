@@ -5,9 +5,9 @@ using Terraria;
 using Terraria.GameContent;
 using Terraria.ModLoader;
 using Terraria.GameContent.UI.BigProgressBar;
-using ExampleMod.Content.NPCs.MinionBoss;
+using clamshellboi.Content.NPCs.MinionBoss;
 
-namespace ExampleMod.Content.BossBars
+namespace clamshellboi.Content.BossBars
 {
 	// Showcases a custom boss bar with basic logic for displaying the icon, life, and shields properly.
 	// Has no custom texture, meaning it will use the default vanilla boss bar texture

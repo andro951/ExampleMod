@@ -1,9 +1,9 @@
-﻿using ExampleMod.Content.DamageClasses;
+﻿using clamshellboi.Content.DamageClasses;
 using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Accessories
+namespace clamshellboi.Content.Items.Accessories
 {
 	public class ExampleStatBonusAccessory : ModItem
 	{

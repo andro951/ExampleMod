@@ -5,9 +5,9 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
 
-namespace ExampleMod.Content.Pets.MinionBossPet
+namespace clamshellboi.Content.Pets.MinionBossPet
 {
-	// You can find a simple pet example in ExampleMod\Content\Pets\ExamplePet
+	// You can find a simple pet example in clamshellboi\Content\Pets\ExamplePet
 	public class MinionBossPetItem : ModItem
 	{
 		public override void SetStaticDefaults() {

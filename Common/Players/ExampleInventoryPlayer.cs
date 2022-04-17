@@ -1,12 +1,12 @@
-﻿using ExampleMod.Content.Items;
-using ExampleMod.Content.Items.Placeable.Furniture;
-using ExampleMod.Content.Items.Placeable;
+﻿using clamshellboi.Content.Items;
+using clamshellboi.Content.Items.Placeable.Furniture;
+using clamshellboi.Content.Items.Placeable;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Players
+namespace clamshellboi.Common.Players
 {
 	public class ExampleInventoryPlayer : ModPlayer
 	{

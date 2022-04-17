@@ -2,9 +2,9 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
-using ExampleMod.Common.GlobalNPCs;
+using clamshellboi.Common.GlobalNPCs;
 
-namespace ExampleMod.Common.GlobalProjectiles
+namespace clamshellboi.Common.GlobalProjectiles
 {
 	// Here is a class dedicated to showcasing projectile modifications
 	public class ExampleProjectileModifications : GlobalProjectile

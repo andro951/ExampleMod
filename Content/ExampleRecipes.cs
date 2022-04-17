@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content
+namespace clamshellboi.Content
 {
 	// This class contains thoughtful examples of item recipe creation.
 	public class ExampleRecipes : ModSystem
@@ -21,7 +21,7 @@ namespace ExampleMod.Content
 			ExampleRecipeGroup = new RecipeGroup(() => $"{Language.GetTextValue("LegacyMisc.37")} {Lang.GetItemNameValue(ModContent.ItemType<Items.ExampleItem>())}",
 				ModContent.ItemType<Items.ExampleItem>(), ModContent.ItemType<Items.ExampleDataItem>());
 
-			RecipeGroup.RegisterGroup("ExampleMod:ExampleItem", ExampleRecipeGroup);
+			RecipeGroup.RegisterGroup("clamshellboi:ExampleItem", ExampleRecipeGroup);
 		}
 
 		public override void AddRecipes() {
@@ -69,7 +69,7 @@ namespace ExampleMod.Content
 				.AddRecipeGroup(ExampleRecipeGroup, 2)
 				// An alternate string-based approach to the above. Try to only use it for other mods' groups, because it's slower.
 				.AddRecipeGroup("Wood")
-				.AddRecipeGroup("ExampleMod:ExampleItem", 2)
+				.AddRecipeGroup("clamshellboi:ExampleItem", 2)
 
 				// Adds a vanilla tile requirement.
 				// To specify a crafting station, specify a tile. Look up TileIDs: https://github.com/tModLoader/tModLoader/wiki/Vanilla-Tile-IDs

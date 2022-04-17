@@ -6,7 +6,7 @@ using Terraria.GameContent.Creative;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	public class ExampleHealingPotion : ModItem
 	{

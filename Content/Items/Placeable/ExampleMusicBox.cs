@@ -1,9 +1,9 @@
-using ExampleMod.Content.Tiles;
+using clamshellboi.Content.Tiles;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 
-namespace ExampleMod.Content.Items.Placeable
+namespace clamshellboi.Content.Items.Placeable
 {
 	public class ExampleMusicBox : ModItem
 	{

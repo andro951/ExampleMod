@@ -1,11 +1,11 @@
-using ExampleMod.Common.Configs;
+using clamshellboi.Common.Configs;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Accessories
+namespace clamshellboi.Content.Items.Accessories
 {
 	[AutoloadEquip(EquipType.Wings)]
 	public class ExampleWings : ModItem

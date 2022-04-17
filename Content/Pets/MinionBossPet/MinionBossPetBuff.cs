@@ -2,9 +2,9 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Pets.MinionBossPet
+namespace clamshellboi.Content.Pets.MinionBossPet
 {
-	// You can find a simple pet example in ExampleMod\Content\Pets\ExamplePet
+	// You can find a simple pet example in clamshellboi\Content\Pets\ExamplePet
 	public class MinionBossPetBuff : ModBuff
 	{
 		public override void SetStaticDefaults() {

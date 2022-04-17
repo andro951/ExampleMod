@@ -1,8 +1,8 @@
 ﻿using System;
-using ExampleMod.Content.Tiles;
+using clamshellboi.Content.Tiles;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Systems
+namespace clamshellboi.Common.Systems
 {
 	public class ExampleBiomeTileCount : ModSystem
 	{

@@ -5,13 +5,13 @@ using ReLogic.Content;
 using Terraria.ModLoader;
 using Terraria.Audio;
 using Terraria.ID;
-using ExampleMod.Backgrounds;
+using clamshellboi.Backgrounds;
 
-namespace ExampleMod.Content
+namespace clamshellboi.Content
 {
 	public class ExampleModMenu : ModMenu
 	{
-		private const string menuAssetPath = "ExampleMod/Assets/Textures/Menu"; // Creates a constant variable representing the texture path, so we don't have to write it out multiple times
+		private const string menuAssetPath = "clamshellboi/Assets/Textures/Menu"; // Creates a constant variable representing the texture path, so we don't have to write it out multiple times
 
 		public override Asset<Texture2D> Logo => base.Logo;
 

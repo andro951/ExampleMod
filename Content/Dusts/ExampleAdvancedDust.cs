@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Dusts
+namespace clamshellboi.Content.Dusts
 {
 	// This Dust will show off Dust.customData, using vanilla dust texture, and some neat movement.
 	internal class ExampleAdvancedDust : ModDust
@@ -10,7 +10,7 @@ namespace ExampleMod.Content.Dusts
 		/*
 			Spawning this dust is a little more involved because we need to assign a rotation, customData, and fix the position.
 			Position must be fixed here because otherwise the first time the dust is drawn it'll draw in the incorrect place.
-			This dust is not used in ExampleMod yet, so you'll have to add some code somewhere. Try ExamplePlayer.DrawEffects.
+			This dust is not used in clamshellboi yet, so you'll have to add some code somewhere. Try ExamplePlayer.DrawEffects.
 
 			Dust dust = Dust.NewDustDirect(Player.Center, 0, 0, ModContent.DustType<Content.Dusts.AdvancedDust>(), Scale: 2);
 			dust.rotation = Main.rand.NextFloat(6.28f);

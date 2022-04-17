@@ -1,5 +1,5 @@
-using ExampleMod.Content.Dusts;
-using ExampleMod.Content.Items;
+using clamshellboi.Content.Dusts;
+using clamshellboi.Content.Items;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 using Terraria.Utilities;
 using Terraria.GameContent.Bestiary;
 
-namespace ExampleMod.Content.NPCs
+namespace clamshellboi.Content.NPCs
 {
 	/// <summary>
 	/// The main focus of this NPC is to show how to make something similar to the vanilla bone merchant;
@@ -78,7 +78,7 @@ namespace ExampleMod.Content.NPCs
 
 				// You can add multiple elements if you really wanted to
 				// You can also use localization keys (see Localization/en-US.lang)
-				new FlavorTextBestiaryInfoElement("Mods.ExampleMod.Bestiary.ExampleBoneMerchant")
+				new FlavorTextBestiaryInfoElement("Mods.clamshellboi.Bestiary.ExampleBoneMerchant")
 			});
 		}
 

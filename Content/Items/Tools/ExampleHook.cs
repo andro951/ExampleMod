@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Tools
+namespace clamshellboi.Content.Items.Tools
 {
 	internal class ExampleHookItem : ModItem
 	{
@@ -38,7 +38,7 @@ namespace ExampleMod.Content.Items.Tools
 
 		public override void Load() { // This is called once on mod (re)load when this piece of content is being loaded.
 			// This is the path to the texture that we'll use for the hook's chain. Make sure to update it.
-			chainTexture = ModContent.Request<Texture2D>("ExampleMod/Content/Items/Tools/ExampleHookChain");
+			chainTexture = ModContent.Request<Texture2D>("clamshellboi/Content/Items/Tools/ExampleHookChain");
 		}
 
 		public override void Unload() { // This is called once on mod reload when this piece of content is being unloaded.

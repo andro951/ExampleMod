@@ -21,7 +21,7 @@ using Terraria.ModLoader.IO;
 
 
 // Future TODO: Improve documentation.
-namespace ExampleMod.Common.Systems
+namespace clamshellboi.Common.Systems
 {
 	// Saving and loading requires TagCompounds, a guide exists on the wiki: https://github.com/tModLoader/tModLoader/wiki/Saving-and-loading-using-TagCompound
 	public class SimpleDataAtParticularLocations : ModSystem

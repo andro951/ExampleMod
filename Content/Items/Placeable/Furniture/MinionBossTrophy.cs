@@ -3,7 +3,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Placeable.Furniture
+namespace clamshellboi.Content.Items.Placeable.Furniture
 {
 	public class MinionBossTrophy : ModItem
 	{

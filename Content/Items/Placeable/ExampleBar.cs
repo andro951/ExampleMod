@@ -2,7 +2,7 @@
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Placeable
+namespace clamshellboi.Content.Items.Placeable
 {
 	public class ExampleBar : ModItem
 	{

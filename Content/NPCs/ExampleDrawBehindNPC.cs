@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.NPCs
+namespace clamshellboi.Content.NPCs
 {
 	// This NPC is simply an exhibition of the DrawBehind method.
 	// The npc cycles between all the available "layers" that a ModNPC can be drawn at.

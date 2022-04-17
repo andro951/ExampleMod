@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Dusts
+namespace clamshellboi.Content.Dusts
 {
 	public class ExampleBubble : ModDust
 	{

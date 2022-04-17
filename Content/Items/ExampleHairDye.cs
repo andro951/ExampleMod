@@ -6,7 +6,7 @@ using Terraria.Graphics.Shaders;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleHairDye : ModItem
 	{

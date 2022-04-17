@@ -2,10 +2,10 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using ExampleMod.Content.Items.Weapons;
+using clamshellboi.Content.Items.Weapons;
 using Terraria.Audio;
 
-namespace ExampleMod.Content.Projectiles
+namespace clamshellboi.Content.Projectiles
 {
 	/// <summary>
 	/// This the class that clones the vanilla Meowmere projectile using CloneDefaults().

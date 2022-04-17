@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace ExampleMod.Content.Items.Tools
+namespace clamshellboi.Content.Items.Tools
 {
 	public class ExampleFishingRod : ModItem
 	{

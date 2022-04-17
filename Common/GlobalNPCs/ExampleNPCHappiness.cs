@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.GlobalNPCs
+namespace clamshellboi.Common.GlobalNPCs
 {
 	public class ExampleNPCHappiness : GlobalNPC 
 	{

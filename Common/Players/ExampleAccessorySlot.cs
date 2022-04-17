@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Players
+namespace clamshellboi.Common.Players
 {
 	public class ExampleModAccessorySlot1 : ModAccessorySlot
 	{

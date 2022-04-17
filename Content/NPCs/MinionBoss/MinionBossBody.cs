@@ -1,10 +1,10 @@
-﻿using ExampleMod.Common.Systems;
-using ExampleMod.Content.BossBars;
-using ExampleMod.Content.Items;
-using ExampleMod.Content.Items.Armor.Vanity;
-using ExampleMod.Content.Items.Consumables;
-using ExampleMod.Content.Pets.MinionBossPet;
-using ExampleMod.Content.Projectiles;
+﻿using clamshellboi.Common.Systems;
+using clamshellboi.Content.BossBars;
+using clamshellboi.Content.Items;
+using clamshellboi.Content.Items.Armor.Vanity;
+using clamshellboi.Content.Items.Consumables;
+using clamshellboi.Content.Pets.MinionBossPet;
+using clamshellboi.Content.Projectiles;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.NPCs.MinionBoss
+namespace clamshellboi.Content.NPCs.MinionBoss
 {
 	// The main part of the boss, usually refered to as "body"
 	[AutoloadBossHead] // This attribute looks for a texture called "ClassName_Head_Boss" and automatically registers it as the NPC boss head icon
@@ -121,7 +121,7 @@ namespace ExampleMod.Content.NPCs.MinionBoss
 
 			// Influences how the NPC looks in the Bestiary
 			NPCID.Sets.NPCBestiaryDrawModifiers drawModifiers = new NPCID.Sets.NPCBestiaryDrawModifiers(0) {
-				CustomTexturePath = "ExampleMod/Assets/Textures/Bestiary/MinionBoss_Preview",
+				CustomTexturePath = "clamshellboi/Assets/Textures/Bestiary/MinionBoss_Preview",
 				PortraitScale = 0.6f, // Portrait refers to the full picture when clicking on the icon in the bestiary
 				PortraitPositionYOverride = 0f,
 			};

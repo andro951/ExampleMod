@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Pets.ExamplePet
+namespace clamshellboi.Content.Pets.ExamplePet
 {
 	public class ExamplePetBuff : ModBuff
 	{

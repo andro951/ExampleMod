@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.GlobalItems
+namespace clamshellboi.Common.GlobalItems
 {
 	// This file shows examples of creating and setting your own sorting group in Journey mode's Duplication menu, as well as changing the sorting groups of existing items.
 	// Creating your own research sorting group can be useful if your mod has a specific custom item type, or the vanilla sorting method doesn't assign the right group to your item.

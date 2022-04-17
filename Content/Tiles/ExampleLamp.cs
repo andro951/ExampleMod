@@ -9,7 +9,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles
+namespace clamshellboi.Content.Tiles
 {
 	// This class shows off many things common to Lamp tiles in Terraria. The process for creating this example is detailed in: https://github.com/tModLoader/tModLoader/wiki/Advanced-Vanilla-Code-Adaption#examplelamp-tile
 	// If you can't figure out how to recreate a vanilla tile, see that guide for instructions on how to figure it out yourself.
@@ -38,7 +38,7 @@ namespace ExampleMod.Content.Tiles
 
 			// Assets
 			if (!Main.dedServ) {
-				flameTexture = ModContent.Request<Texture2D>("ExampleMod/Content/Tiles/ExampleLamp_Flame"); // We could also reuse Main.FlameTexture[] textures, but using our own texture is nice.
+				flameTexture = ModContent.Request<Texture2D>("clamshellboi/Content/Tiles/ExampleLamp_Flame"); // We could also reuse Main.FlameTexture[] textures, but using our own texture is nice.
 			}
 		}
 

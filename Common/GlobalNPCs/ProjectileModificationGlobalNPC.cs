@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader;
 
-namespace ExampleMod.Common.GlobalNPCs
+namespace clamshellboi.Common.GlobalNPCs
 {
 	// This is a class for functionality related to ExampleProjectileModifications.
 	public class ProjectileModificationGlobalNPC : GlobalNPC {

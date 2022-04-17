@@ -1,8 +1,8 @@
 Mods: {
-	ExampleMod: {
+	clamshellboi: {
 		Common: {
 			PaperAirplane: Бумажный самолётик
-			LocalizedLabel: Эта строка из файлов локализации: {$Mods.ExampleMod.Common.PaperAirplane}
+			LocalizedLabel: Эта строка из файлов локализации: {$Mods.clamshellboi.Common.PaperAirplane}
 			LocalizedTooltip: Эта подсказка из файлов локализации.
 			LocalizedHeader: Заголовки помогут организовывать.
 		}
@@ -17,25 +17,25 @@ Mods: {
 		}
 		
 		ItemTooltip: {
-			OctopusBanner: "{$CommonItemTooltip.BannerBonus}{$Mods.ExampleMod.NPCName.Octopus}"
-			SarcophagusBanner: "{$CommonItemTooltip.BannerBonus}{$Mods.ExampleMod.NPCName.Sarcophagus}"
+			OctopusBanner: "{$CommonItemTooltip.BannerBonus}{$Mods.clamshellboi.NPCName.Octopus}"
+			SarcophagusBanner: "{$CommonItemTooltip.BannerBonus}{$Mods.clamshellboi.NPCName.Sarcophagus}"
 			ExamplePet:
 				'''
-				Призывает {$Mods.ExampleMod.Common.PaperAirplane}, бессмысленно следующий за вами
+				Призывает {$Mods.clamshellboi.Common.PaperAirplane}, бессмысленно следующий за вами
 				Вторая строка!
 				'''
 		}
 		
 		ItemName: {
-			ExamplePet: "{$Mods.ExampleMod.Common.PaperAirplane}"
+			ExamplePet: "{$Mods.clamshellboi.Common.PaperAirplane}"
 		}
 		
 		ProjectileName: {
-			ExamplePet: "{$Mods.ExampleMod.Common.PaperAirplane}"
+			ExamplePet: "{$Mods.clamshellboi.Common.PaperAirplane}"
 		}
 		
 		BuffName: {
-			ExamplePet: "{$Mods.ExampleMod.Common.PaperAirplane}"
+			ExamplePet: "{$Mods.clamshellboi.Common.PaperAirplane}"
 		}
 		
 		BuffDescription: {

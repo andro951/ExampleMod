@@ -1,7 +1,7 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common.Players
+namespace clamshellboi.Common.Players
 {
 	public class ExampleLuckPlayer : ModPlayer
 	{

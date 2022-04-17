@@ -18,7 +18,7 @@ using Terraria.UI;
 
 // This file contains several fake ModConfig classes that each
 // showcase various features of ModConfig.
-namespace ExampleMod.Common.Configs
+namespace clamshellboi.Common.Configs
 {
 	[BackgroundColor(144, 252, 249)]
 	[Label("ModConfig Showcase A: Data Types")]
@@ -52,13 +52,13 @@ namespace ExampleMod.Common.Configs
 		// When using XDefinition classes, you can the .Type property to get the ID of the item. You can use .IsUnloaded to check if the item in question is loaded.
 		public ItemDefinition itemDefinitionExample;
 		public NPCDefinition npcDefinitionExample = new NPCDefinition(NPCID.Bunny);
-		public ProjectileDefinition projectileDefinitionExample = new ProjectileDefinition("ExampleMod", nameof(Content.Projectiles.ExampleHomingProjectile));
+		public ProjectileDefinition projectileDefinitionExample = new ProjectileDefinition("clamshellboi", nameof(Content.Projectiles.ExampleHomingProjectile));
 
 		// Data Structures of reference types
-		/* TODO: Add this back in once ExampleMod adds a ModPrefix example.
+		/* TODO: Add this back in once clamshellboi adds a ModPrefix example.
 		public Dictionary<PrefixDefinition, float> SomeClassE = new Dictionary<PrefixDefinition, float>() {
-			[new PrefixDefinition("ExampleMod", "Awesome")] = 0.5f,
-			[new PrefixDefinition("ExampleMod", "ReallyAwesome")] = 0.8f
+			[new PrefixDefinition("clamshellboi", "Awesome")] = 0.5f,
+			[new PrefixDefinition("clamshellboi", "ReallyAwesome")] = 0.8f
 		};
 		*/
 
@@ -152,12 +152,12 @@ namespace ExampleMod.Common.Configs
 		[SliderColor(255, 0, 127)]
 		public float SomeFloat;
 
-		// Using localization keys will help make your config readable in multiple languages. See ExampleMod/Localization/en-US.lang
-		[Label("$Mods.ExampleMod.Common.LocalizedLabel")]
-		[Tooltip("$Mods.ExampleMod.Common.LocalizedTooltip")]
+		// Using localization keys will help make your config readable in multiple languages. See clamshellboi/Localization/en-US.lang
+		[Label("$Mods.clamshellboi.Common.LocalizedLabel")]
+		[Tooltip("$Mods.clamshellboi.Common.LocalizedTooltip")]
 		public int LocalizedLabel;
 
-		[Label("$Mods.ExampleMod.Common.LocalizedLabelDynamic")]
+		[Label("$Mods.clamshellboi.Common.LocalizedLabelDynamic")]
 		public int LocalizedLabelDynamic;
 
 		// The color of the config entry can be customized. R, G, B
@@ -172,7 +172,7 @@ namespace ExampleMod.Common.Configs
 		[Header("Headers Section")]
 		public int Header;
 
-		[Header("$Mods.ExampleMod.Common.LocalizedHeader")]
+		[Header("$Mods.clamshellboi.Common.LocalizedHeader")]
 		public int LocalizedHeader;
 
 		[Header("[i:19][c/00FF00:Green Text]")]

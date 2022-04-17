@@ -1,12 +1,12 @@
-using ExampleMod.Content.Items.Consumables;
-using ExampleMod.Content.NPCs;
+using clamshellboi.Content.Items.Consumables;
+using clamshellboi.Content.NPCs;
 using System.IO;
 using Terraria;
 
-namespace ExampleMod
+namespace clamshellboi
 {
-	// This is a partial class, meaning some of its parts were split into other files. See ExampleMod.*.cs for other portions.
-	partial class ExampleMod
+	// This is a partial class, meaning some of its parts were split into other files. See clamshellboi.*.cs for other portions.
+	partial class clamshellboi
 	{
 		internal enum MessageType : byte
 		{
@@ -34,7 +34,7 @@ namespace ExampleMod
 
 					break;
 				default:
-					Logger.WarnFormat("ExampleMod: Unknown Message type: {0}", msgType);
+					Logger.WarnFormat("clamshellboi: Unknown Message type: {0}", msgType);
 					break;
 			}
 		}

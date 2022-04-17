@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.GameContent.UI.BigProgressBar;
 
-namespace ExampleMod.Content.BossBars
+namespace clamshellboi.Content.BossBars
 {
 	// Showcases very basic code for a custom boss bar style that is selectable in the menu in "Interface"
 	// If you want custom NPC selection code for which boss bars to display, return true for PreventUpdate, and implement your own code in the Update hook

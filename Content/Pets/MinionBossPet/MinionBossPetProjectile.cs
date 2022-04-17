@@ -6,11 +6,11 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Pets.MinionBossPet
+namespace clamshellboi.Content.Pets.MinionBossPet
 {
-	// You can find a simple pet example in ExampleMod\Content\Pets\ExamplePet
+	// You can find a simple pet example in clamshellboi\Content\Pets\ExamplePet
 	// This pet uses custom AI and drawing to make it more special (It's a Master Mode boss pet after all)
-	// It behaves similarly to the Creeper Egg or Suspicious Grinning Eye pets, but takes some visual properties from ExampleMod's Minion Boss
+	// It behaves similarly to the Creeper Egg or Suspicious Grinning Eye pets, but takes some visual properties from clamshellboi's Minion Boss
 	public class MinionBossPetProjectile : ModProjectile
 	{
 		// This is a ref property, lets us write Projectile.ai[0] as whatever name we want

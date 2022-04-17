@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Dusts
+namespace clamshellboi.Content.Dusts
 {
 	public class ExampleSolution : ModDust
 	{

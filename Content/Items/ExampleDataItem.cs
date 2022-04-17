@@ -4,11 +4,11 @@ using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleDataItem : ModItem
-	{
-		public override string Texture => "ExampleMod/Content/Items/ExampleItem";
+	{               
+		public override string Texture => "clamshellboi/Content/Items/ExampleItem";
 
 		public int timer;
 
@@ -20,7 +20,7 @@ namespace ExampleMod.Content.Items
 		}
 
 		public override void ModifyTooltips(List<TooltipLine> tooltips) {
-			TooltipLine tooltip = new TooltipLine(Mod, "ExampleMod: HotPatato", $"You have {timer / 60f:N1} seconds left!") { overrideColor = Color.Red };
+			TooltipLine tooltip = new TooltipLine(Mod, "clamshellboi: HotPatato", $"You have {timer / 60f:N1} seconds left!") { overrideColor = Color.Red };
 			tooltips.Add(tooltip);
 		}
 

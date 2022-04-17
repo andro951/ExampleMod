@@ -1,7 +1,7 @@
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace ExampleMod.Content.Items.Placeable
+namespace clamshellboi.Content.Items.Placeable
 {
 	public class ExampleHerbSeeds : ModItem
 	{

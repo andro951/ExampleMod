@@ -1,7 +1,7 @@
-﻿using ExampleMod.Content.Items;
-using ExampleMod.Content.Tiles;
-using ExampleMod.Content.Tiles.Furniture;
-using ExampleMod.Content.Walls;
+﻿using clamshellboi.Content.Items;
+using clamshellboi.Content.Tiles;
+using clamshellboi.Content.Tiles.Furniture;
+using clamshellboi.Content.Walls;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
@@ -9,11 +9,11 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Ammo
+namespace clamshellboi.Content.Items.Ammo
 {
 	public class ExampleSolutionItem : ModItem
 	{
-		public override string Texture => ExampleMod.AssetPath + "Textures/Items/ExampleSolution";
+		public override string Texture => clamshellboi.AssetPath + "Textures/Items/ExampleSolution";
 
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Monochromatic Solution");
@@ -44,7 +44,7 @@ namespace ExampleMod.Content.Items.Ammo
 
 	public class ExampleSolutionProjectile : ModProjectile
 	{
-		public override string Texture => ExampleMod.AssetPath + "Textures/Projectiles/ExampleSolution";
+		public override string Texture => clamshellboi.AssetPath + "Textures/Projectiles/ExampleSolution";
 
 		public ref float Progress => ref Projectile.ai[0];
 

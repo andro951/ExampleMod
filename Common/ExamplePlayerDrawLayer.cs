@@ -1,4 +1,4 @@
-using ExampleMod.Content.Items;
+using clamshellboi.Content.Items;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
@@ -6,7 +6,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Common
+namespace clamshellboi.Common
 {
 	public class ExamplePlayerDrawLayer : PlayerDrawLayer
 	{
@@ -34,7 +34,7 @@ namespace ExampleMod.Common
 			// The following code draws ExampleItem's texture behind the player's head.
 
 			if (exampleItemTexture == null) {
-				exampleItemTexture = ModContent.Request<Texture2D>("ExampleMod/Content/Items/ExampleItem");
+				exampleItemTexture = ModContent.Request<Texture2D>("clamshellboi/Content/Items/ExampleItem");
 			}
 
 			var position = drawInfo.Center + new Vector2(0f, -20f) - Main.screenPosition;

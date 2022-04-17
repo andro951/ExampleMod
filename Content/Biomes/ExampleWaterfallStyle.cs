@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Biomes
+namespace clamshellboi.Content.Biomes
 {
 	public class ExampleWaterfallStyle : ModWaterfallStyle
 	{

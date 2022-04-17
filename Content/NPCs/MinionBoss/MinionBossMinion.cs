@@ -6,7 +6,7 @@ using Terraria.GameContent.Bestiary;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.NPCs.MinionBoss
+namespace clamshellboi.Content.NPCs.MinionBoss
 {
 	// The minions spawned when the body spawns
 	// Please read MinionBossBody.cs first for important comments, they won't be explained here again

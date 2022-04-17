@@ -6,7 +6,7 @@ using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.BossBars
+namespace clamshellboi.Content.BossBars
 {
 	// Shows basic boss bar code using a custom colored texture. It only does visual things, so for a more practical boss bar, see the other example (MinionBossBossBar)
 	// To use this, in an NPCs SetDefaults, write:

@@ -1,10 +1,10 @@
-﻿using ExampleMod.Content.Items;
+﻿using clamshellboi.Content.Items;
 using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles
+namespace clamshellboi.Content.Projectiles
 {
 	// This file showcases the concept of piercing.
 	// The code of the item that spawns it is located at the bottom.

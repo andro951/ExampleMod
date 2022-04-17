@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Consumables
+namespace clamshellboi.Content.Items.Consumables
 {
 	// This is the Item used to summon a boss, in this case the vanilla Plantera boss.
 	public class PlanteraItem : ModItem

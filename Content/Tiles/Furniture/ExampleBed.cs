@@ -1,4 +1,4 @@
-using ExampleMod.Content.Dusts;
+using clamshellboi.Content.Dusts;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
@@ -7,7 +7,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExampleMod.Content.Tiles.Furniture
+namespace clamshellboi.Content.Tiles.Furniture
 {
 	public class ExampleBed : ModTile
 	{

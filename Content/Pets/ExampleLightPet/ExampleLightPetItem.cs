@@ -1,11 +1,11 @@
-﻿using ExampleMod.Content.Items;
+﻿using clamshellboi.Content.Items;
 using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace ExampleMod.Content.Pets.ExampleLightPet
+namespace clamshellboi.Content.Pets.ExampleLightPet
 {
 	public class ExampleLightPetItem : ModItem
 	{

@@ -1,10 +1,10 @@
-﻿using ExampleMod.Content.Projectiles;
+﻿using clamshellboi.Content.Projectiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items
+namespace clamshellboi.Content.Items
 {
 	public class ExampleGolfBall : ModItem
 	{

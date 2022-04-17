@@ -3,7 +3,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Ammo
+namespace clamshellboi.Content.Items.Ammo
 {
 	// This Example class demonstrates how to make your own weapon ammo.
 	// Used by ExampleCustomAmmoGun

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.DamageClasses
+namespace clamshellboi.Content.DamageClasses
 {
 	public class ExampleDamageClass : DamageClass
 	{

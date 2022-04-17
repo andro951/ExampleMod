@@ -1,9 +1,9 @@
-using ExampleMod.Content.Projectiles;
+using clamshellboi.Content.Projectiles;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Items.Weapons
+namespace clamshellboi.Content.Items.Weapons
 {
 	/// <summary>
 	/// This weapon and its corresponding projectile showcase the CloneDefaults() method, which allows for cloning of other items.

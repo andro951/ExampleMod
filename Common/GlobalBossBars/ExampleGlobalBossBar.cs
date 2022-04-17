@@ -7,7 +7,7 @@ using Terraria.ModLoader;
 using ReLogic.Graphics;
 using Terraria.DataStructures;
 
-namespace ExampleMod.Common.GlobalBossBars
+namespace clamshellboi.Common.GlobalBossBars
 {
 	// Shows things you can do around drawing boss bars
 	public class ExampleGlobalBossBar : GlobalBossBar
